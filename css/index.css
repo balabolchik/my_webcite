@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+:root {
+    --header-font: 'Montserrat Alternates', sans-serif;
+    --main-font: 'Caveat', cursive;
+}
+
+* {
+    margin: auto;
+    font-family: var(--main-font);
+}
+
+body {
+    max-width: 980px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: var(--header-font);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
