@@ -8,5 +8,5 @@ buttonForSaveInformation.addEventListener('click', () => {
     users[id] = {};
     users[id].firstName = newUserName.value;
     users[id].surname = newUserSurname.value;
-    alert(users[id]);
+    console.log(users[id]);
 });
